@@ -1,0 +1,7 @@
+pipeline:
+  greet:
+    image: debian:latest
+    commands:
+      - echo "hello"
+      - echo "world"
+
